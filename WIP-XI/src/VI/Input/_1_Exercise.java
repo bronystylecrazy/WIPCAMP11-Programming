@@ -11,22 +11,19 @@ package VI.Input;
 
 import java.util.Scanner;
 
-
-public class _1_Exercise {
+public class _1_Exercise{
     public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
-         
-         int x;
-         int y;
-         
-        System.out.print("Enter x : ");
-
-        x = sc.nextInt();
         
-        System.out.print("Enter y : ");
+        Scanner sc = new Scanner(System.in);
+        int dad;
+        int mom;
+        System.out.print("Enter dad : ");
 
-        y = sc.nextInt();
-               
-        System.out.println("X+Y : " + (x+y));
+        dad = sc.nextInt();
+        System.out.print("Enter mom : ");
+
+        mom = sc.nextInt();
+        
+        System.out.println("sum of dad and mom : " + (dad + mom));
     }
 }
